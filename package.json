@@ -5,7 +5,7 @@
   "description": "Radar de veille et de qualification des appels d'offres publics BTP (Ile-de-France)",
   "type": "module",
   "engines": {
-    "node": ">=22"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "next dev",
