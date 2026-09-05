@@ -4,3 +4,7 @@ node_modules/
 *.log
 .DS_Store
 exports/
+.next/
+next-env.d.ts
+.vercel/
+*.tsbuildinfo

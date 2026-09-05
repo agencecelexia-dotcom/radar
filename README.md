@@ -22,6 +22,25 @@ envoie un digest chaque matin. Il ne dépose aucune candidature et n'écrit jama
 6. Planifier : pousser le dépôt et renseigner les secrets du workflow
    `.github/workflows/radar.yml` (06h00 / 07h30 / 18h00, heure de Paris).
 
+## Interface web
+
+Un tableau de bord Next.js déployable sur Vercel vit dans [`app/`](app/). Il lit
+la table `avis` et permet d'arbitrer chaque opportunité (à étudier / go / no-go).
+
+Il fonctionne **dès le premier déploiement, sans configuration** : tant que
+Supabase n'est pas branché, il sert le relevé embarqué (`data/snapshot.json`,
+303 avis réels) et affiche la marche à suivre. Dès que `SUPABASE_URL` et
+`SUPABASE_SERVICE_ROLE_KEY` sont renseignés et que la base contient des avis, il
+bascule tout seul en données live, avec les scores et les artisans suggérés.
+
+Ce repli est délibéré : sans lui, un déploiement effectué avant la création du
+projet Supabase afficherait une erreur au lieu du produit.
+
+Déploiement : importer le dépôt sur Vercel (il détecte Next.js seul), puis
+ajouter les deux variables d'environnement dans Settings → Environment Variables.
+
+Rafraîchir le relevé embarqué : `npm run apercu -- data/snapshot.json 45`
+
 ## Commandes
 
 | Commande | Rôle |
@@ -32,6 +51,8 @@ envoie un digest chaque matin. Il ne dépose aucune candidature et n'écrit jama
 | `npm run digest` | Envoie le digest |
 | `npm run expire` | Passe à `expire` les avis dépassés |
 | `npm run capture-fixtures` | Rafraîchit les fixtures de test |
+| `npm run dev` / `npm run build` | Interface web (Next.js) |
+| `npm run apercu -- <fichier> [jours]` | Régénère le relevé embarqué |
 | `npm test` | Tests hors ligne sur avis réels |
 
 ## Ce que la validation de l'API a appris

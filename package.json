@@ -8,20 +8,29 @@
     "node": ">=22"
   },
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "ingest": "node --experimental-strip-types src/jobs/ingest.ts",
     "digest": "node --experimental-strip-types src/jobs/digest.ts",
     "expire": "node --experimental-strip-types src/jobs/expire.ts",
     "capture-fixtures": "node --experimental-strip-types scripts/capture-fixtures.ts",
+    "apercu": "node --experimental-strip-types scripts/apercu.ts",
     "test": "vitest run",
     "test:watch": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.pipeline.json"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",
+    "next": "^15.5.25",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "resend": "^4.0.1"
   },
   "devDependencies": {
     "@types/node": "^22.7.5",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
     "typescript": "^5.6.3",
     "vitest": "^2.1.3"
   }
