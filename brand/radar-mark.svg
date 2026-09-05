@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="RADAR">
+  <title>RADAR</title>
+  <!-- Chevrons imbriques : se lisent a la fois comme des ondes radar
+       qui remontent et comme des lignes de toiture. -->
+  <g fill="none" stroke="#0F1826" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 42 L32 14 L59 42" opacity=".45"/>
+    <path d="M13 42 L32 23 L51 42" opacity=".72"/>
+    <path d="M22 42 L32 32 L42 42"/>
+  </g>
+  <!-- La cible detectee. -->
+  <circle cx="32" cy="47.5" r="4.8" fill="#C8552E"/>
+</svg>

@@ -1,0 +1,62 @@
+{
+  "idweb": "26-86114",
+  "id": "26_86114",
+  "contractfolderid": null,
+  "objet": "Travaux de mise en conformité des réseaux d'assainissement, de renouvellement du réseau d'eau potable et d'aménagements de la voirie du Chemin des Clefs à Thorigny sur Marne",
+  "filename": "26-86114",
+  "famille": "FNS",
+  "code_departement": [
+    "77"
+  ],
+  "code_departement_prestation": null,
+  "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+  "dateparution": "2026-09-04",
+  "datefindiffusion": "2026-09-14",
+  "datelimitereponse": null,
+  "nomacheteur": "Communaute D'Agglomeration De Marne Et Gondoire",
+  "titulaire": null,
+  "perimetre": "FNSimple",
+  "type_procedure": null,
+  "soustype_procedure": null,
+  "procedure_libelle": "Procédure NC",
+  "procedure_categorise": "/",
+  "nature": "RECTIFICATIF",
+  "sousnature": null,
+  "nature_libelle": "Rectificatif",
+  "sousnature_libelle": "Rectificatif",
+  "nature_categorise": "rectificatif/standard",
+  "nature_categorise_libelle": "Rectificatif/",
+  "criteres": [
+    "environnementaux"
+  ],
+  "marche_public_simplifie": null,
+  "marche_public_simplifie_label": null,
+  "etat": "RECTIFICATIF",
+  "descripteur_code": [
+    "18",
+    "366"
+  ],
+  "dc": [
+    "18",
+    "366"
+  ],
+  "descripteur_libelle": [
+    "Assainissement",
+    "Voirie et réseaux divers"
+  ],
+  "type_marche": [
+    "TRAVAUX"
+  ],
+  "type_marche_facette": [
+    "Travaux"
+  ],
+  "type_avis": null,
+  "annonce_lie": [
+    "26-79146"
+  ],
+  "annonces_anterieures": null,
+  "source_schema": "3.2.5",
+  "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-86114\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"ANNONCE_ANTERIEUR\": {\"IDWEB\": \"26-79146\"}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"Communaute D'Agglomeration De Marne Et Gondoire\", \"DATE_PUBLICATION\": \"2026-09-04\", \"DATE_FIN_DIFFUSION\": \"2026-09-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"18\", \"LIBELLE\": \"Assainissement\"}, {\"CODE\": \"366\", \"LIBELLE\": \"Voirie et réseaux divers\"}]}, \"NATURE_MARCHE\": {\"TRAVAUX\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"77\", \"RESUME_OBJET\": \"Travaux de mise en conformité des réseaux d'assainissement, de renouvellement du réseau d'eau potable et d'aménagements de la voirie du Chemin des Clefs à Thorigny sur Marne\"}}",
+  "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"Communaute D'Agglomeration De Marne Et Gondoire\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"24770059400010\", \"ville\": \"MARNE LA VALLEE\", \"cp\": \"77603\", \"grpCommandes\": {\"non\": \"\"}}, \"rectificatif\": {\"avisInitial\": {\"idWeb\": \"26-79146\"}, \"natureMarche\": {\"intitule\": \"Travaux de mise en conformité des réseaux d'assainissement, de renouvellement du réseau d'eau potable et d'aménagements de la voirie du Chemin des Clefs à Thorigny sur Marne\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"45232410\"}}, \"natureMarche\": {\"travaux\": \"\"}, \"description\": \"Consultation lancée par un groupement de commandes.\\nLes prestations sont réglées par des prix unitaires.\\nCes travaux consisteront notamment en :\\n- Création d'une canalisation en Polypropylène DN200 sur une longueur de 250 ml ;\\n- Création d'un poste de refoulement des eaux usées ;\\n- Création d'un réseau de gestion des eaux pluviales en Polypropylène DN300 sur une longueur de 300 ml plus ouvrage de stockage en PEHD Ø1030 sur 65 ml de longueur ;\\n- Renouvellement de 286 ml (165 ml+ 121 ml)  de canalisation d'eau potable Ø75 à Ø125 ;\\nL'aménagement d'une nouvelle voirie plus accotement sur toute la longueur du chemin\", \"criteresAttrib\": \"énoncé dans le Rc\"}, \"infosRectif\": \"Rubrique : Date et heure limites de réception des plis, Au lieu de 07/09/2026 à 12h00, lire 14/09/2026 à 12h00\"}}}",
+  "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-86114"
+}

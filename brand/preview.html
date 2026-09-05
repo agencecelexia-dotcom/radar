@@ -1,0 +1,57 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>RADAR — planche de marque</title>
+<style>
+  :root { color-scheme: light dark; --bg:#f7f8fa; --fg:#0f1826; --mut:#5a6572; --card:#fff; --bord:#e2e5ea; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1826; --fg:#f2f4f7; --mut:#98a1ad; --card:#18222f; --bord:#2a3542; } }
+  body { margin:0; padding:40px; background:var(--bg); color:var(--fg);
+         font:15px/1.6 -apple-system, system-ui, sans-serif; }
+  h1 { font-size:20px; margin:0 0 4px; }
+  p.sub { color:var(--mut); margin:0 0 32px; }
+  h2 { font-size:12px; letter-spacing:.09em; text-transform:uppercase; color:var(--mut);
+       margin:36px 0 12px; }
+  .card { background:var(--card); border:1px solid var(--bord); border-radius:10px; padding:24px; }
+  .row { display:flex; gap:28px; align-items:center; flex-wrap:wrap; }
+  .sombre { background:#0f1826; }
+  .sombre svg [stroke="#0F1826"] { stroke:#fff; }
+  .sombre svg text { fill:#fff; }
+  .mono svg [stroke="#0F1826"], .mono svg [stroke="#FFFFFF"] { stroke:#0f1826; opacity:1; }
+  .mono svg circle[fill="#C8552E"] { fill:#0f1826; }
+  .mono.sombre svg [stroke], .mono.sombre svg circle { stroke:#fff; fill:#fff; }
+  figure { margin:0; text-align:center; }
+  figcaption { font-size:12px; color:var(--mut); margin-top:8px; }
+  .sombre figcaption { color:#98a1ad; }
+</style>
+
+<h1>RADAR — planche de marque</h1>
+<p class="sub">Chevrons imbriqués : ondes radar et lignes de toiture à la fois. Le point terracotta est la cible détectée.</p>
+
+<h2>Variantes proposées</h2>
+<div class="card row">
+  <figure><img src="variantes.svg" width="640" alt="Variantes A, B, C"></figure>
+</div>
+<p class="sub" style="margin-top:10px">A — chevrons libres (retenue par défaut) &nbsp;·&nbsp; B — écusson &nbsp;·&nbsp; C — balayage sur ligne de toiture</p>
+
+<h2>Logo complet</h2>
+<div class="card row"><img src="radar-logo.svg" width="300" alt="Logo RADAR"></div>
+<div class="card row sombre" style="margin-top:12px"><img src="radar-logo.svg" width="300" alt="Logo RADAR sur fond sombre"></div>
+
+<h2>Icône seule — tenue en taille</h2>
+<div class="card row">
+  <figure><img src="radar-mark.svg" width="96"><figcaption>96 px</figcaption></figure>
+  <figure><img src="radar-mark.svg" width="48"><figcaption>48 px</figcaption></figure>
+  <figure><img src="radar-mark.svg" width="32"><figcaption>32 px</figcaption></figure>
+  <figure><img src="radar-mark.svg" width="24"><figcaption>24 px</figcaption></figure>
+  <figure><img src="favicon.svg" width="32"><figcaption>favicon 32 px</figcaption></figure>
+  <figure><img src="favicon.svg" width="16"><figcaption>favicon 16 px</figcaption></figure>
+</div>
+
+<h2>Monochrome — test noir et blanc</h2>
+<div class="card row mono"><img src="radar-mark.svg" width="64"><img src="radar-logo.svg" width="260"></div>
+
+<h2>Palette</h2>
+<div class="card row">
+  <figure><svg width="64" height="64"><rect width="64" height="64" rx="8" fill="#0F1826"/></svg><figcaption>#0F1826<br>encre</figcaption></figure>
+  <figure><svg width="64" height="64"><rect width="64" height="64" rx="8" fill="#C8552E"/></svg><figcaption>#C8552E<br>cible</figcaption></figure>
+  <figure><svg width="64" height="64"><rect width="64" height="64" rx="8" fill="#5A6572"/></svg><figcaption>#5A6572<br>secondaire</figcaption></figure>
+</div>

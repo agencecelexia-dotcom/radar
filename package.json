@@ -1,0 +1,28 @@
+{
+  "name": "radar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Radar de veille et de qualification des appels d'offres publics BTP (Ile-de-France)",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "ingest": "node --experimental-strip-types src/jobs/ingest.ts",
+    "digest": "node --experimental-strip-types src/jobs/digest.ts",
+    "expire": "node --experimental-strip-types src/jobs/expire.ts",
+    "capture-fixtures": "node --experimental-strip-types scripts/capture-fixtures.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "resend": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.3"
+  }
+}

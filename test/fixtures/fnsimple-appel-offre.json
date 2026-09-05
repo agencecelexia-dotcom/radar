@@ -1,0 +1,64 @@
+{
+  "idweb": "26-85977",
+  "id": "26_85977",
+  "contractfolderid": null,
+  "objet": "Travaux de confortement du pignon et de la façade de la Petite Chancellerie à Compiègne (relance)",
+  "filename": "26-85977",
+  "famille": "FNS",
+  "code_departement": [
+    "2",
+    "51",
+    "60",
+    "75",
+    "80"
+  ],
+  "code_departement_prestation": null,
+  "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+  "dateparution": "2026-09-04",
+  "datefindiffusion": "2026-10-05",
+  "datelimitereponse": "2026-10-05T14:00:00+00:00",
+  "nomacheteur": "COMMUNE DE COMPIEGNE",
+  "titulaire": null,
+  "perimetre": "FNSimple",
+  "type_procedure": "OUVERT",
+  "soustype_procedure": null,
+  "procedure_libelle": "Procédure Ouverte",
+  "procedure_categorise": "OUVERT/",
+  "nature": "APPEL_OFFRE",
+  "sousnature": null,
+  "nature_libelle": "Avis de marché",
+  "sousnature_libelle": null,
+  "nature_categorise": "appeloffre/standard",
+  "nature_categorise_libelle": "Avis de marché/",
+  "criteres": [
+    "environnementaux"
+  ],
+  "marche_public_simplifie": null,
+  "marche_public_simplifie_label": null,
+  "etat": "INITIAL",
+  "descripteur_code": [
+    "299"
+  ],
+  "dc": [
+    "299"
+  ],
+  "descripteur_libelle": [
+    "Ravalement"
+  ],
+  "type_marche": [
+    "TRAVAUX"
+  ],
+  "type_marche_facette": [
+    "Travaux"
+  ],
+  "type_avis": [
+    "5",
+    "1"
+  ],
+  "annonce_lie": null,
+  "annonces_anterieures": null,
+  "source_schema": "3.2.5",
+  "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-85977\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"COMMUNE DE COMPIEGNE\", \"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-04\", \"DATE_LIMITE_REPONSE\": \"2026-10-05T14:00:00.000\", \"DATE_FIN_DIFFUSION\": \"2026-10-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"299\", \"LIBELLE\": \"Ravalement\"}}, \"NATURE_MARCHE\": {\"TRAVAUX\": \"\"}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"02\", \"51\", \"60\", \"75\", \"80\"], \"RESUME_OBJET\": \"Travaux de confortement du pignon et de la façade de la Petite Chancellerie à Compiègne (relance)\"}}",
+  "donnees": "{\"FNSimple\": {\"organisme\": {\"nomOfficiel\": \"VILLE DE COMPIEGNE\", \"typeIdentificationNational\": {\"siret\": \"\"}, \"codeIdentificationNational\": \"21600158600017\", \"ville\": \"Compiègne\", \"cp\": \"60200\", \"grpCommandes\": {\"non\": \"\"}}, \"initial\": {\"communication\": {\"urlProfilAch\": \"https://marches-agglo-compiegne.safetender.com\", \"identifiantInterne\": \"CO 57_26 AG\", \"docSecurite\": {\"oui\": \"\"}, \"urlSecurite\": {\"non\": \"\"}, \"nomContact\": \"Service de la commande publique\", \"adresseMailContact\": \"contact@example.invalid\"}, \"procedure\": {\"procedureAdapteeO\": \"\", \"capaciteExercice\": \"Se référer au règlement de la consultation\", \"capaciteEcoFin\": \"Se référer au règlement de la consultation\", \"capaciteTech\": \"Se référer au règlement de la consultation\", \"techAchat\": {\"autres\": \"\"}, \"dateReceptionOffres\": \"2026-10-05T14:00:00.000\", \"presOffres\": {\"exigee\": \"\"}, \"nbCandidatReduit\": {\"non\": \"\"}, \"attributionSansNegociation\": {\"oui\": {\"@xsi:type\": \"xs:string\"}}, \"variantes\": {\"non\": {\"@xsi:type\": \"xs:string\"}}, \"criteresAttrib\": \"Se référer au règlement de la consultation\"}, \"natureMarche\": {\"intitule\": \"Travaux de confortement du pignon et de la façade de la Petite Chancellerie à Compiègne (relance)\", \"codeCPV\": {\"objetPrincipal\": {\"classPrincipale\": \"45262512\"}}, \"natureMarche\": {\"travaux\": \"\"}, \"description\": \"Confortement du pignon et ravalement du pignon situé dans la cour commune de la copropriété situé au n°2 rue de la sous-préfecture à Compiègne Confortement et ravalement de la façade située cote parking (OUEST) avec accès depuis le n°8 bis, rue Fournier SARLOVEZE (Dernière travée) à Compiègne. RELANCE suite à une première consultation infructueuse.\", \"lieuExecution\": \"Compiègne 60200\", \"dureeMois\": \"7\", \"tranches\": {\"non\": {\"@xsi:type\": \"xs:string\"}}, \"reservationMarche\": {\"non\": \"\"}, \"lotsMarche\": {\"non\": {\"@xsi:type\": \"xs:string\"}}}, \"informComplementaire\": {\"oui\": {\"visiteDetail\": \"Une visite sur site est obligatoire. Les candidats doivent prendre rendez-vous avant le 22 septembre. Se référer à l'article 6.2 du règlement de consultation\"}, \"autresInformComplementaire\": \"Le marché est conclu à prix global et forfaitaire. Il comprend 2 Prestations Supplémentaires Eventuelles (PSE) qui sont à chiffrer obligatoirement. Le marché comprend une clause d'exécution à caractère social (facultative).\"}}}}",
+  "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-85977"
+}

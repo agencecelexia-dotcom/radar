@@ -1,0 +1,62 @@
+{
+  "idweb": "26-86300",
+  "id": "26_86300",
+  "contractfolderid": null,
+  "objet": "Les travaux objet du présent marché comprennent le remplacement de la couverture (toiture) et le \nravalement des façades de la cour secondaire d'un immeuble situé 22 rue du Général Foy à Paris 7500...",
+  "filename": "26-86300",
+  "famille": "MAPA",
+  "code_departement": [
+    "75",
+    "92"
+  ],
+  "code_departement_prestation": null,
+  "famille_libelle": "Marchés <90 k€ (MAPA)",
+  "dateparution": "2026-09-04",
+  "datefindiffusion": "2026-09-28",
+  "datelimitereponse": "2026-09-28T16:00:00+00:00",
+  "nomacheteur": "ESSET Property Management",
+  "titulaire": null,
+  "perimetre": "MAPA",
+  "type_procedure": "PROCEDURE_ADAPTE",
+  "soustype_procedure": null,
+  "procedure_libelle": "Procédure Adaptée",
+  "procedure_categorise": "PROCEDURE_ADAPTE/",
+  "nature": "APPEL_OFFRE",
+  "sousnature": null,
+  "nature_libelle": "Avis de marché",
+  "sousnature_libelle": null,
+  "nature_categorise": "appeloffre/standard",
+  "nature_categorise_libelle": "Avis de marché/",
+  "criteres": null,
+  "marche_public_simplifie": null,
+  "marche_public_simplifie_label": null,
+  "etat": "INITIAL",
+  "descripteur_code": [
+    "74",
+    "264"
+  ],
+  "dc": [
+    "74",
+    "264"
+  ],
+  "descripteur_libelle": [
+    "Couverture",
+    "Peinture (travaux)"
+  ],
+  "type_marche": [
+    "TRAVAUX"
+  ],
+  "type_marche_facette": [
+    "Travaux"
+  ],
+  "type_avis": [
+    "5",
+    "1"
+  ],
+  "annonce_lie": null,
+  "annonces_anterieures": null,
+  "source_schema": "3.2.5",
+  "gestion": "{\"REFERENCE\": {\"IDWEB\": \"26-86300\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"MAPA\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"INDEXATION\": {\"SCHEMA\": \"3.2.5\", \"NOMORGANISME\": \"ESSET Property Management\", \"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"DATE_PUBLICATION\": \"2026-09-04\", \"DATE_LIMITE_REPONSE\": \"2026-09-28T16:00:00\", \"DATE_FIN_DIFFUSION\": \"2026-09-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"74\", \"LIBELLE\": \"Couverture\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}]}, \"NATURE_MARCHE\": {\"TRAVAUX\": \"\"}, \"DEP_PUBLICATION\": [\"75\", \"92\"], \"RESUME_OBJET\": \"Les travaux objet du présent marché comprennent le remplacement de la couverture (toiture) et le \\nravalement des façades de la cour secondaire d'un immeuble situé 22 rue du Général Foy à Paris 7500...\"}}",
+  "donnees": "{\"MAPA\": {\"organisme\": {\"correspondantPRM\": {\"civilite\": \"CONTACT ANONYMISE\", \"nom\": \"CONTACT ANONYMISE\"}, \"acheteurPublic\": \"ESSET Property Management\", \"adr\": {\"voie\": {\"nomvoie\": \"Tour CB16 - 17 place des Reflets\"}, \"cp\": \"92097\", \"ville\": \"Paris la defense\"}, \"coord\": {\"url\": \"https://www.achatpublic.com/sdm/ent2/gen/index.jsp\"}, \"urlProfilAcheteur\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2026_eZ4BURtQCS\", \"classificationOrganisme\": \"7\"}, \"initial\": {\"natureMarche\": {\"travaux\": \"\"}, \"description\": {\"objet\": \"Les travaux objet du présent marché comprennent le remplacement de la couverture (toiture) et le \\nravalement des façades de la cour secondaire d'un immeuble situé 22 rue du Général Foy à Paris 75008. \\nL'ensemble des prescriptions techniques relatives à ce marché sont détaillées dans le Cahier des Clauses \\nTechniques Particulières (CCTP).\"}, \"criteres\": {\"critereCDC\": \"\"}, \"procedure\": {\"procedureAdaptee\": \"\"}, \"delais\": {\"receptionOffres\": \"2026-09-28T16:00:00\"}, \"renseignements\": {\"idMarche\": \"MAPA-GENERALFOY-2026\"}, \"adressesComplt\": {\"envoi\": {\"coord\": {\"url\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2026_eZ4BURtQCS\"}}}, \"lots\": {\"lot\": [{\"numLot\": \"1\", \"description\": \"Installation de chantier et couverture\"}, {\"numLot\": \"2\", \"description\": \"Traitement de façade / peinture\"}]}}}}",
+  "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-86300"
+}
